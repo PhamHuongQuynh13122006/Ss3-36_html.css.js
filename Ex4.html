@@ -6,27 +6,14 @@
     <title>Document</title>
 </head>
 <body>
-    <table border="1" sellpa >
-        <tr>
-            <th>Tên</th>
-            <th>Tuổi</th>
-            <th>Nghề nghiệp</th>
-        </tr>
-        <tr>
-            <td>An</td>
-            <td>25</td>
-            <td>Lập trình viên</td>
-        </tr>
-        <tr>
-            <td>Bảo</td>
-            <td>30</td>
-            <td>KỸ sư xây dựng</td>
-        </tr>
-        <tr>
-            <td>Chi</td>
-            <td>22</td>
-            <td>Sinh viên</td>
-        </tr>
-    </table>
+    <br>
+        <label for="rating">Đánh giá (1-5): </label>
+        <input type="number"id="rating" name="rating" min="1" max="5" required/>
+        <br/>
+        <label for="comment">Bình luận: </label>
+        <textarea id="comment" name="comment" rows="5" cols="20" required></textarea>
+    </br>
+        <button>Gửi Feedback</button>
+    </form>
 </body>
 </html>
